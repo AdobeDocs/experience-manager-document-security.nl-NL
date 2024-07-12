@@ -8,7 +8,7 @@ discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Dit document begeleidt u door het installeren en configureren van Adobe Experien
 Dit document bevat informatie over de volgende taken:
 
 * Documentbeveiligingsextensie installeren voor Microsoft Office
-* Het installatieprogramma vooraf configureren om te wijzen naar de invoegtoepassing LiveCycle Rights Management ES2 of hoger of Documentbeveiliging voor AEM 6.0 Forms of hoger.
+* Het installatieprogramma vooraf configureren om te wijzen naar het LiveCyclee Rights Management ES2 of een latere versie of de Document Security Add-on voor AEM 6.0 Forms of hoger.
 * De automatische toepassing van standaardbeleid configureren
 
 ## Voordat u gaat installeren {#before-you-install}
 
 Controleer voordat u Document Security Extension for Microsoft Office installeert of:
 
-* U hebt de [Opmerkingen bij de release](document-security-extension-release-notes.md).
+* U hebt de [ Nota&#39;s van de Versie ](document-security-extension-release-notes.md) gelezen.
 * Microsoft Office is geactiveerd. Het dialoogvenster Activering wordt niet weergegeven bij het openen van Microsoft Office-toepassingen.
 * De nieuwste servicepacks voor Microsoft Windows en Microsoft Office zijn geïnstalleerd.
 * Als u Documentbeveiliging voor Microsoft Office installeert voor een niet-ondersteunde taal, opent u de Office-toepassing minstens één keer.
@@ -40,11 +40,11 @@ Controleer voordat u Document Security Extension for Microsoft Office installeer
 >
 >Het installeren van een 32-bits versie van de extensie Documentbeveiliging op een 64-bits besturingssysteem wordt ondersteund, maar de tegenovergestelde manier wordt niet ondersteund. U kunt geen 64-bits versie van de extensie Documentbeveiliging voor Microsoft Office installeren op een 32-bits besturingssysteem.
 
-### McAfee VirusScan uitschakelen&amp; {#disable-mcafee-virusscan}
+### McAfee VirusScan uitschakelen {#disable-mcafee-virusscan}
 
 Om ervoor te zorgen dat Office-toepassingen probleemloos starten op een computer waarop Documentbeveiligingsextensie is geïnstalleerd en McAfee VirusScan is ingeschakeld met On-Access Scan, schakelt u de optie Buffer Overflow Protection uit in de McAfee VirusScan-console.
 
-### Plug-ins van derden verwijderen {#uninstall-third-party-plug-ins}
+### Plug-ins van andere leveranciers verwijderen {#uninstall-third-party-plug-ins}
 
 AEM Document Security Extension for Microsoft Office biedt geen ondersteuning voor plug-ins van derden voor Microsoft Office-toepassingen. Aangezien deze extensie een conflict veroorzaakt met plug-ins van derden, moet u eventuele niet-Adobe plug-ins voor Microsoft Office verwijderen voordat u Documentbeveiliging voor Microsoft Office installeert. Adobe biedt geen ondersteuning voor Document Security voor Microsoft Office-toepassingen waarbij plug-ins van derden zijn geïnstalleerd.
 
@@ -55,11 +55,11 @@ AEM Document Security Extension for Microsoft Office biedt geen ondersteuning vo
 Controleer de volgende minimale configuraties waarop u Documentbeveiligingsextensie wilt installeren:
 
 * 32-bits of 64-bits versies van Microsoft Windows 7 of Windows 10 in het Engels, Frans, Duits, Japans, Italiaans, Spaans, Braziliaans Portugees, Koreaans, Vereenvoudigd Chinees of Traditioneel Chinees.
-   **Opmerking:** *Van de de veiligheidsuitbreiding van het document voor Microsoft Office wordt ook verwacht dat het aan de apparaten van de Oppervlakte van Microsoft werkt.*
+  **Nota:** *de veiligheidsuitbreiding van het Document voor Microsoft Office wordt ook verwacht om op de apparaten van het Oppervlak van Microsoft te werken.*
 
 * 32-bits of 64-bits versies van Microsoft Office 2013, 2016, 2019 en Microsoft Office-bureaubladtoepassingen die zijn geïnstalleerd als onderdeel van Office 365 in het Engels, Frans, Duits, Japans, Italiaans, Spaans, Braziliaans Portugees, Koreaans, Vereenvoudigd Chinees of Traditioneel Chinees.
 
-   **Opmerking**: *AEM Document Security Extension for Microsoft Office biedt geen ondersteuning voor plug-ins van derden voor Microsoft Office-toepassingen. Aangezien deze extensie mogelijk conflicteert met plug-ins van derden, moeten niet-Adobe plug-ins voor Microsoft Office-toepassingen worden verwijderd voordat documentbeveiligingsextensie voor Microsoft Office kan worden geïnstalleerd. Adobe biedt geen ondersteuning voor Document Security Extensions voor Microsoft Office-toepassingen waarop plug-ins van derden zijn geïnstalleerd.*
+  **Nota**: *AEM de Uitbreiding van de Veiligheid van het Document voor Microsoft Office steunt derde geen stop-ins voor de toepassingen van Microsoft Office. Aangezien deze extensie mogelijk conflicteert met plug-ins van derden, moeten niet-Adobe plug-ins voor Microsoft Office-toepassingen worden verwijderd voordat documentbeveiligingsextensie voor Microsoft Office kan worden geïnstalleerd. De Adobe verleent geen steun voor de Uitbreidingen van de Veiligheid van het Document voor de toepassingen van Microsoft Office met geïnstalleerde derdestop-ins.*
 
 * 1,3-GHz processor of hoger
 * 2 GB RAM
@@ -71,7 +71,7 @@ Als u de Extensie van de Veiligheid van het Document wilt gebruiken, zorg ervoor
 
 ## Documentbeveiligingsextensie installeren voor Microsoft Office {#installing-document-security-extension-for-microsoft-office}
 
-U kunt het installatieprogramma downloaden via het dialoogvenster [downloadpagina](download-installer.md). U kunt het uitvoerbare bestand van het installatieprogramma niet rechtstreeks aanpassen, maar u kunt het interactief of in de stille modus installeren. Meld u als beheerder aan bij Windows om de software te installeren.
+U kunt het installatieprogramma van de [ downloadpagina ](download-installer.md) downloaden. U kunt het uitvoerbare bestand van het installatieprogramma niet rechtstreeks aanpassen, maar u kunt het interactief of in de stille modus installeren. Meld u als beheerder aan bij Windows om de software te installeren.
 
 Afzonderlijke installatieprogramma&#39;s zijn beschikbaar voor 32-bits en 64-bits versies van Microsoft Office. Voor versie met 32 bits van Microsoft Office, download DocumentSecurityExtensionforMicrosoftOffice.exe. Voor versie met 64 bits van Microsoft Office, download DocumentSecurityExtensionforMicrosoftOffice64.exe.
 
@@ -81,7 +81,7 @@ Afzonderlijke installatieprogramma&#39;s zijn beschikbaar voor 32-bits en 64-bit
 
 ### Installeren in de stille modus {#install-in-silent-mode}
 
-Een hulpprogramma voor het uitpakken van bestanden, zoals WinZip, gebruiken `DocumentSecurityExtensionforMicrosoftOffice.exe` uit het installatiebestand. Open de opdrachtprompt, ga naar de map die het instellingenbestand bevat en typ de volgende tekst:
+Gebruik een hulpprogramma voor het ophalen van bestanden, zoals WinZip, om `DocumentSecurityExtensionforMicrosoftOffice.exe` uit het installatiebestand te extraheren. Open de opdrachtprompt, ga naar de map die het instellingenbestand bevat en typ de volgende tekst:
 
 `DocumentSecurityExtensionforMicrosoftOffice.exe -s -a -s -v" /qn"`
 
@@ -89,9 +89,9 @@ Het installatieprogramma is ook beschikbaar als een MSI-bestand dat kan worden g
 
 ### Een MSI-bestand installeren in de stille modus {#install-an-msi-file-in-silent-mode}
 
-1. Gebruik een hulpprogramma voor het ophalen van bestanden, zoals WinZip, om het `DocumentSecurityExtensionforMicrosoftOffice.msi` bestand uit het ZIP-bestand.
+1. Gebruik een hulpprogramma voor het ophalen van bestanden, zoals WinZip, om het `DocumentSecurityExtensionforMicrosoftOffice.msi` -bestand uit het ZIP-bestand te extraheren.
 
-1. Open de bevelherinnering, ga naar de omslag die het MSI dossier bevat, en typ de volgende tekst:
+1. Open de bevelherinnering, ga naar de omslag die het MSI- dossier bevat, en typ de volgende tekst:
 
    `msiexec /I DocumentSecurityExtensionforMicrosoftOffice.msi /qn`
 
@@ -99,7 +99,7 @@ Het installatieprogramma is ook beschikbaar als een MSI-bestand dat kan worden g
 
 U kunt het installatieprogramma van de Extensie van de Veiligheid van het Document voor het installatieprogramma van Microsoft Office vooraf vormen om aan een LiveCycle of AEM server te richten zodat de gebruikers die de Uitbreiding van de Veiligheid van het Document voor Microsoft Office installeren de eigenschappen kunnen gebruiken zonder een verbinding te vormen. Daarom kunnen gebruikers beveiligde documenten zonder configuratie openen. Ze kunnen nieuwe documenten echter pas beschermen als ze de client configureren voor het gebruik van een bepaalde server.
 
-In de volgende stappen wordt beschreven hoe u een MSI-bestand maakt en configureert. Dit MSI-bestand bevat de registerwaarden die vereist zijn om het installatieprogramma voor documentbeveiliging voor Microsoft Office vooraf te configureren naar de LiveCycle- of AEM-server die in uw bedrijf is geïnstalleerd.
+In de volgende stappen wordt beschreven hoe u een MSI-bestand maakt en configureert. Dit MSI-bestand bevat de registerwaarden die vereist zijn om het installatieprogramma voor documentbeveiliging voor Microsoft Office vooraf te configureren naar het LiveCycle of AEM server die in uw bedrijf is geïnstalleerd.
 
 ### Vereisten voor het aanpassen van het installatieprogramma {#prerequisites-for-customizing-the-installer}
 
@@ -117,10 +117,10 @@ For more information about how to edit Microsoft Windows® Installer files using
 
 #### Orca installeren {#install-orca}
 
-1. Download Vensters SDK voor de Server 2008 van Vensters en .NET Kader 3.5.
+1. Download Windows SDK voor Windows Server 2008 en .NET Framework 3.5.
 1. Dubbelklik op het bestand Orca.msi in de map \Microsoft SDK\bin.
 
-   U hebt ook de MSI-variant van het installatiebestand nodig. Neem contact op met de Adobe-ondersteuning voor de nieuwste versie van het MSI-installatieprogramma.
+   U hebt ook de MSI-variant van het installatiebestand nodig. Neem contact op met de ondersteuning van de Adobe voor de nieuwste versie van het MSI-installatieprogramma.
 
    >[!NOTE]
    >
@@ -128,9 +128,9 @@ For more information about how to edit Microsoft Windows® Installer files using
 
 ### Het MSI-bestand maken en configureren {#create-and-configure-the-msi-file}
 
-1. Klikken **[!UICONTROL Start > Programma&#39;s > Orca]**.
+1. Klik **[!UICONTROL Begin > Programma&#39;s > Orca]**.
 
-1. Klikken **[!UICONTROL Bestand > Openen]** en bladert u vervolgens naar de `DocumentSecurityExtensionforMicrosoftOffice.msi` bestand.
+1. Klik **[!UICONTROL Dossier > Open]**, en doorblader dan aan het `DocumentSecurityExtensionforMicrosoftOffice.msi` dossier.
 
 1. Selecteer Eigenschap in de lijst met tabellen (aan de linkerkant).
 
@@ -139,13 +139,13 @@ For more information about how to edit Microsoft Windows® Installer files using
 <table>
  <tbody>
   <tr>
-   <td><p><strong>K</strong><strong>e</strong><strong>y-naam</strong></p> </td>
+   <td><p><strong> K </strong> <strong> e </strong> <strong> y Naam </strong></p> </td>
    <td><p><strong>Beschrijving</strong></p> </td>
-   <td><p><strong>K</strong><strong>e</strong><strong>Y-waarde standaard</strong></p> </td>
+   <td><p><strong> K </strong> <strong> e </strong> <strong> het Standaard van de Waarde </strong></p> </td>
   </tr>
   <tr>
    <td><p><code>APS_SERVER_NAME</code></p> </td>
-   <td><p>Weergavenaam.</p> </td>
+   <td><p>Naam weergeven.</p> </td>
    <td><p>Standaardserver</p> </td>
   </tr>
   <tr>
@@ -160,7 +160,7 @@ For more information about how to edit Microsoft Windows® Installer files using
 
 1. Bewerk de volgende waarde voor de sleutelnaam.
 
-   | **Sleutelnaam** | **Beschrijving** | **Standaardwaarde toets** |
+   | **Zeer belangrijke Naam** | **Beschrijving** | **Zeer belangrijke Gebrek van de Waarde** |
    |---|---|---|
    | `IsDefault` | De standaard APS-server. | Standaardserver |
 
@@ -168,7 +168,7 @@ For more information about how to edit Microsoft Windows® Installer files using
 
    >[!NOTE]
    >
-   >Vaak wordt dezelfde bestandsnaam gebruikt als het oorspronkelijke MSI-bestand (bijvoorbeeld `DocumentSecurityExtensionforMicrosoftOffice.msi`).
+   >Vaak wordt dezelfde bestandsnaam gebruikt als het oorspronkelijke MSI-bestand (bijvoorbeeld `DocumentSecurityExtensionforMicrosoftOffice.msi` ).
 
 ## Het vormen automatische toepassing van een standaardbeleid {#configuring-automatic-application-of-a-default-policy}
 
@@ -187,11 +187,11 @@ Nadat u de functie voor automatisch toepassen hebt ingeschakeld, wordt het docum
 
 ### Vorm automatisch toepassen beleidseigenschap in het MSI dossier  {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
-Voordat u begint, configureert u het installatieprogramma zo dat het naar de LiveCycle- of AEM formulierserver wijst, zoals eerder in dit artikel wordt beschreven.
+Voordat u begint, configureert u het installatieprogramma zo dat het naar uw LiveCycle of AEM formulierserver verwijst, zoals eerder in dit artikel wordt beschreven.
 
-1. Klikken **[!UICONTROL Start > Programma&#39;s > Orca]**.
+1. Klik **[!UICONTROL Begin > Programma&#39;s > Orca]**.
 
-1. Klikken **[!UICONTROL Bestand > Openen]** en bladert u vervolgens naar de `DocumentSecurityExtensionforMicrosoftOffice.msi` bestand.
+1. Klik **[!UICONTROL Dossier > Open]**, en doorblader dan aan het `DocumentSecurityExtensionforMicrosoftOffice.msi` dossier.
 
 1. Selecteer Eigenschap in de lijst met tabellen (aan de linkerkant).
 
@@ -202,11 +202,11 @@ Voordat u begint, configureert u het installatieprogramma zo dat het naar de Liv
   <tr>
    <td><p><strong>Sleutelnaam</strong></p> </td>
    <td><p><strong>Beschrijving</strong></p> </td>
-   <td><p><strong>K</strong><strong>e</strong><strong>Y-waarde standaard</strong></p> </td>
+   <td><p><strong> K </strong> <strong> e </strong> <strong> het Standaard van de Waarde </strong></p> </td>
   </tr>
   <tr>
    <td><p><code>AUTO_APPLY_POLICY_IS_AUTO_ APPLY</code></p> </td>
-   <td><p>Schakel de functie voor automatisch toepassen van beleid in of uit.</p> <p><code>1</code>: Inschakelen</p> <p>0: Uitschakelen</p> </td>
+   <td><p>Schakel de functie voor automatisch toepassen van beleid in of uit.</p> <p><code>1</code>: Enable</p> <p>0: Uitschakelen</p> </td>
    <td><p>0</p> </td>
   </tr>
   <tr>
@@ -226,7 +226,7 @@ Voordat u begint, configureert u het installatieprogramma zo dat het naar de Liv
   </tr>
   <tr>
    <td><p><code>AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE</code></p> </td>
-   <td><p>Hiermee wordt bepaald of documenten kunnen worden gemaakt zonder documentbeveiliging als de client geen contact kan opnemen met de server om het document te beveiligen bij de eerste keer opslaan.</p> <p>1: Onbeschermde opslaan toestaan </p> <p>0: Voorkomen dat er nieuwe documenten worden gemaakt wanneer de client geen contact kan opnemen met de server om het document op te slaan.</p> </td>
+   <td><p>Hiermee wordt bepaald of documenten kunnen worden gemaakt zonder documentbeveiliging als de client geen contact kan opnemen met de server om het document te beveiligen bij de eerste keer opslaan.</p> <p>1: Niet-beveiligde opslaan toestaan </p> <p>0: voorkomen dat er nieuwe documenten worden gemaakt wanneer de client geen contact kan opnemen met de server om het document op te slaan.</p> </td>
    <td><p>0</p> </td>
   </tr>
  </tbody>
@@ -234,13 +234,13 @@ Voordat u begint, configureert u het installatieprogramma zo dat het naar de Liv
 
 >[!NOTE]
 >
->`AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE` Deze optie is handig wanneer u klanten wilt herinneren aan de beveiliging van alle documenten zonder hen daartoe te dwingen. Het is ook nuttig wanneer u weet dat de gebruikers documenten creëren terwijl losgemaakt van het netwerk. U wilt niet verhinderen dat ze documenten maken en opslaan.
+>`AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE` is handig als u klanten wilt herinneren aan de beveiliging van alle documenten zonder hen daartoe te dwingen. Het is ook nuttig wanneer u weet dat de gebruikers documenten creëren terwijl losgemaakt van het netwerk. U wilt niet verhinderen dat ze documenten maken en opslaan.
 
 1. Sla het gewijzigde bestand op in dezelfde map die het oorspronkelijke MSI-bestand bevat.
 
    >[!NOTE]
    >
-   >Vaak wordt dezelfde bestandsnaam gebruikt als het oorspronkelijke MSI-bestand (bijvoorbeeld `DocumentSecurityExtensionforMicrosoftOffice.msi`).
+   >Vaak wordt dezelfde bestandsnaam gebruikt als het oorspronkelijke MSI-bestand (bijvoorbeeld `DocumentSecurityExtensionforMicrosoftOffice.msi` ).
 
 ## Automatische bescherming van nieuwe documenten mogelijk maken {#enabling-automatic-protection-of-new-documents}
 
@@ -251,15 +251,15 @@ Als Beleid automatisch toepassen is ingeschakeld, worden alle documenten die de 
 * Wanneer een gebruiker een nieuw document maakt, bewerkt en opslaat.
 * Wanneer een gebruiker een niet-beveiligd document opent, bewerkt en opslaat.
 
-Voor informatie over het vormen Auto-apply beleid, zie [Een automatische toepassing van standaardbeleid configureren](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p).
+Voor informatie over het vormen auto-pas beleid toe, zie [ een automatische toepassing van standaardbeleid ](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p) vormen.
 
 ## Gebruikersinterface zonder lint inschakelen {#enable-ribbon-less-user-interface}
 
 U kunt de gebruikersinterface zonder lint toelaten/onbruikbaar maken door montages in de Registratie van Vensters te wijzigen. Voer de volgende stappen uit om Registratie bij te werken en lint minder gebruikersinterface toe te laten:
 
-1. Maak een back-up van het Windows-register voordat u de wijzigingen aanbrengt. Zie voor gedetailleerde instructies [Hoe te om het Register van Vensters te wijzigen](https://support.microsoft.com/en-us/kb/136393).
-1. Navigeer in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
-1. Nieuwe benoemde Dword-waarde (32 bits) maken **HidePluginUI**.
+1. Maak een back-up van het Windows-register voordat u de wijzigingen aanbrengt. Voor gedetailleerde instructies, zie [ hoe te de Registratie van Vensters wijzigen ](https://support.microsoft.com/en-us/kb/136393).
+1. Ga in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
+1. Creeer een nieuwe (met 32 bits) genoemde waarde Dword **HidePluginUI**.
 
 1. Stel waarde van de eigenschap **HidePluginUI **eigenschap in op 1 om een gebruikersinterface zonder lint in te schakelen.
 
@@ -269,10 +269,10 @@ U kunt de gebruikersinterface zonder lint toelaten/onbruikbaar maken door montag
 
 U kunt de registratiemontages van Vensters veranderen om dynamisch watermerk samen te maken met bestaande kopballen en footers. Met de registerinstellingen wordt het watermerk alleen tijdens het afdrukken beschikbaar gesteld. Voer de volgende stappen uit om het register bij te werken en watermerken tijdens het afdrukken in te schakelen:
 
-1. Maak een back-up van het Windows-register voordat u de wijzigingen aanbrengt. Zie voor gedetailleerde instructies [Hoe te om het Register van Vensters te wijzigen](https://support.microsoft.com/en-us/kb/136393).
-1. Navigeer in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
-1. Een nieuwe registersleutel maken **WatermarkMode**.
-1. Maak een DWORD in de registersleutel WatermarkMode. **WatermarkMode** en de waarde van DWORD instellen **WatermarkMode** tot **1**.
+1. Maak een back-up van het Windows-register voordat u de wijzigingen aanbrengt. Voor gedetailleerde instructies, zie [ hoe te de Registratie van Vensters wijzigen ](https://support.microsoft.com/en-us/kb/136393).
+1. Ga in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
+1. Creeer een nieuwe sleutel van de Registratie **WatermarkMode**.
+1. In de sleutel van de registratie WatermarkMode, creeer a DWORD **WatermarkMode**, en plaats waarde van DWORD **WatermarkMode** aan **1**.
 
 1. Sluit de registereditor.
 
@@ -288,14 +288,14 @@ Een gebruiker kan proberen het beveiligde document te openen op een computer waa
 
 * Maak een back-up van het bestand CommonResources.dll. Het standaardpad is:
 
-   * **(Voor 32-bits kantoor op een 32-bits computer)** C:\Program Files\Adobe\Adobe Experience Manager Forms\Document Security Extension
+   * **(Voor 32-bits kantoor op een 32-bits computer)** C:\Program Files\Adobe\Adobe
 
-   * **(Voor 32-bits kantoor op een 64-bits computer)** C:\Program Files (x86)\Adobe\Adobe Experience Manager Forms\Document Security Extension
+   * **(Voor 32-bits kantoor op een 64-bits computer)** C:\Program Bestanden (x86)\Adobe\Adobe Experience Manager Forms\Document Security Extension
 
-   * **(Voor 64-bits kantoor op een 64-bits computer)** C:\Program Files\Adobe\Adobe Experience Manager Forms\Document Security Extension
+   * **(Voor 64-bits kantoor op een 64-bits computer)** C:\Program Files\Adobe\Adobe
 
 * Zorg ervoor dat u Microsoft Visual Studio 2008 of later geïnstalleerd hebt. U kunt ook elk ander hulpprogramma gebruiken om de DLL-bestanden te bewerken.
-* Extraheer het archief templates.zip. Het archief bevat .xlsx-, .docx- en .pptx-sjablonen voor de omslagpagina. Gebruik alleen sjablonen die zijn meegeleverd voor bestandstypen .xlsx, .docx en .pptx. U kunt uw eigen sjablonen maken voor andere bestandstypen. Pas sjablonen aan om aangepaste berichten en instructies op te nemen. U kunt template.zip vinden op:
+* Extraheer het archief templates.zip. Het archief bevat de sjablonen .xlsx, .docx en .pptx voor de omslagpagina. Gebruik alleen sjablonen die zijn meegeleverd voor bestandstypen .xlsx, .docx en .pptx. U kunt uw eigen sjablonen maken voor andere bestandstypen. Pas sjablonen aan om aangepaste berichten en instructies op te nemen. U kunt template.zip vinden op:
 
 [Bestand ophalen](assets/templates.zip)
 
@@ -306,7 +306,7 @@ Het bestand CommonResources.dll bevat informatie over de bronnensjablonen. Deze 
 <table>
  <tbody>
   <tr>
-   <td><p><strong>Resource</strong></p> </td>
+   <td><p><strong>Bron</strong></p> </td>
    <td><p><strong>Vertegenwoordigt </strong></p> </td>
   </tr>
   <tr>
@@ -350,7 +350,7 @@ Het bestand CommonResources.dll bevat informatie over de bronnensjablonen. Deze 
 
    1. Met een project dat in de Ontdekkingsreiziger van de Oplossing, op het menu van het Project wordt geselecteerd, klik Eigenschappen.
    1. Selecteer het tabblad Bronnen.
-   1. Voor de toolbar van de Ontwerper van het Middel, punt om Middel toe te voegen, klik de pijl. Voor middeltype, uitgezochte TEMPLATE_FILE, en klik de invoer.
+   1. Voor de toolbar van Designer van het Middel, punt om Middel toe te voegen, klik de pijl. Voor middeltype, uitgezochte TEMPLATE_FILE, en klik de invoer.
    1. Blader in het dialoogvenster Bestaande bestanden toevoegen aan bronnen naar het bestand Resource.xlsx en klik op Openen. Het bestand wordt toegevoegd aan de map TEMPLATE_FILE.
 
    >[!NOTE]
@@ -363,13 +363,13 @@ Het bestand CommonResources.dll bevat informatie over de bronnensjablonen. Deze 
    >
    >Verwijder en voeg geen middeltypes in willekeurige orde toe. Na 101, vorm 102, etc.
 
-### Het aangepaste bestand CommonResources.dll verpakken met het installatieprogramma van AEM Document Security-extensie voor Microsoft Office  {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
+### Het aangepaste CommonResources.dll-bestand verpakken met het installatieprogramma van AEM Document Security-extensie voor Microsoft Office  {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
 
 U kunt het bestand CommonResources.dll aanpassen en een aangepaste omslagpagina toevoegen. Nadat u het bestand hebt aangepast, kunt u het originele bestand handmatig vervangen door het aangepaste bestand op alle werkstations. U kunt ook een geautomatiseerde methode kiezen om het bestand te vervangen.
 
-In een grote omgeving is het moeilijk en vervelend om de standaardinstelling handmatig te vervangen `CommonResources.dll file` met een aangepaste `CommonResources.dll` bestand. U kunt een zelfuitpakkend en verpakkingshulpmiddel (bijvoorbeeld, WinZip Zelfuitpakkend) gebruiken om het douaneCommonResources.dll- dossier met AEM Uitbreiding van de Veiligheid van het Document voor de installateur van Microsoft Office te verpakken. Later kunt u het aangepaste installatieprogramma naar alle werkstations distribueren. Deze methode verkort de tijd die nodig is om de standaardinstelling te vervangen `CommonResources.dll` met een aangepast bestand. Het zorgt ook dat al werkstation het vereiste dossier CommonResources.dll heeft. Het gereedschap Zelfuitpakken en verpakken is slechts een van de vele mogelijke methoden om een bestand automatisch te vervangen. U kunt elke methode kiezen die geschikt is voor uw omgeving.
+In een grote omgeving is het moeilijk en vervelend om de standaard `CommonResources.dll file` handmatig te vervangen door een aangepast `CommonResources.dll` -bestand. U kunt een zelfuitpakkend en verpakkingshulpmiddel (bijvoorbeeld, WinZip Zelfuitpakkend) gebruiken om het douaneCommonResources.dll- dossier met AEM Uitbreiding van de Veiligheid van het Document voor de installateur van Microsoft Office te verpakken. Later kunt u het aangepaste installatieprogramma naar alle werkstations distribueren. Met deze methode verkort u de tijd die nodig is om het standaardbestand van `CommonResources.dll` te vervangen door een aangepast bestand. Het zorgt ook dat al werkstation het vereiste dossier CommonResources.dll heeft. Het gereedschap Zelfuitpakken en verpakken is slechts een van de vele mogelijke methoden om een bestand automatisch te vervangen. U kunt elke methode kiezen die geschikt is voor uw omgeving.
 
-U kunt de volgende stappen uitvoeren om aangepaste pakketten te maken `CommonResources.dll`bestand bij het installatieprogramma van AEM Document Security extension voor Microsoft Office:
+U kunt de volgende stappen uitvoeren om douane `CommonResources.dll` dossier met de installateur van AEM uitbreiding van de Veiligheid van het Document voor Microsoft Office te verpakken:
 
 1. Installeer een zelfextractor en een verpakkingshulpmiddel. Bijvoorbeeld WinZip Self-Extractor.
 1. Maak een nieuwe map. UW_FOLDER_NAME
@@ -408,15 +408,15 @@ U kunt de volgende stappen uitvoeren om aangepaste pakketten te maken `CommonRes
     endlocal
    ```
 
-   Als u een andere versie van LiveCycle of AEM Forms op JEE behalve LiveCycle Rights Management ES4 en versie als 11.0.0 gebruikt, vervang de weg van de registratiesleutel als volgt:
+   Als u een andere versie van LiveCycle of AEM Forms op JEE behalve LiveCyclee Rights Management ES4 en versie als 11.0.0 gebruikt, vervang de weg van de registratiesleutel als volgt:
 
-   * (Livecycle Rights Management ES2 en versie 9.0): *HKLM\SOFTWARE\Adobe/LiveCycle* *Rights Management ES2\9.0 *
+   * (Livecycle Rights Management ES2 en versie 9.0): *HKLM \ SOFTWARE \ Adobe/LiveCycle* *Rights Management ES2 \ 9.0 *
    * (Livecycle Rights Management ES3 en versie 10.0)
    * (Livecycle Rights Management ES4 en versie 11.0) HKLM\SOFTWARE\Adobe\LiveCycle Rights Management ES4\11.0.0
    * (AEM 6.0 Forms op JEE en latere versies) HKLM\SOFTWARE\Adobe\LiveCycle Rights Management ES4\11.0.0
 
 1. Vervang in de bovenstaande code alle instanties van UW_FOLDER_NAME door de naam van de map die u in stap 2 hebt gemaakt.
-1. **(Voor AEM Document Security-extensie voor Microsoft Office-installatieprogramma met alleen de extensie .exe)** Vervang de volgende coderegel:
+1. **(Voor AEM uitbreiding van de Veiligheid van het Document voor het installatieprogramma van Microsoft Office met .exe slechts uitbreiding)** vervangt de volgende lijn van code:
 
    `msiexec /i YOUR_FOLDER_NAME\MSI_NAME.msi`
 with

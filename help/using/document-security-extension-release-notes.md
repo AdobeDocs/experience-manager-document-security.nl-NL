@@ -8,7 +8,7 @@ discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
 exl-id: 582f10bb-60d2-46ed-b81d-5818a040edc6
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Nieuwe functies in AEM documentbeveiliging voor Microsoft Office {#whats-new-in-aem-document-security-for-microsoft-office}
 
-* **Ondersteuning voor Office 2019**: Document Security Extension for Microsoft Office heeft ondersteuning toegevoegd voor Microsoft Office 2019. Het zal naar verwachting ook werken met Microsoft Office 2019-bureaubladtoepassingen die zijn geïnstalleerd als onderdeel van Office 365.
+* **Steun voor Bureau 2019**: De Uitbreiding van de Veiligheid van het document voor Microsoft Office heeft steun voor Microsoft Office 2019 toegevoegd. De toepassing werkt ook met Microsoft Office 2019-bureaubladtoepassingen die zijn geïnstalleerd als onderdeel van Office 365.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Deze versie van Document Security Extension voor Microsoft Office is compatibel met Adobe LiveCycle Rights Management ES2 en hoger en de Document Security Add-on voor AEM formulieren.
 
-Controleer de gegevens in dit document voordat u AEM Document Security Extension for Microsoft Office installeert. Voor gedetailleerde installatie-instructies raadpleegt u [Documentbeveiligingsextensie voor Microsoft Office installeren en configureren AEM](installing-configuring-aemdsext.md) artikel.
+Controleer de gegevens in dit document voordat u AEM Document Security Extension for Microsoft Office installeert. Voor gedetailleerde installatieinstructies, zie [ Installerend en het Vormen de Uitbreiding van de Veiligheid van het AEM van het Document voor Microsoft Office ](installing-configuring-aemdsext.md) artikel.
 
 ## Opgeloste problemen {#fixed-issues}
 
@@ -41,7 +41,7 @@ AEM Document Security Extension for Microsoft Office werkt niet met plug-ins van
 
 ### Uitgeschakelde menuopties in Microsoft Word, Excel en PowerPoint {#disabled-menu-options-in-microsoft-word-excel-and-powerpoint}
 
-AEM de Uitbreiding van de Veiligheid van het Document voor Microsoft Office gebruikt ingebouwde beschermingseigenschappen om documenten, aantekenvellen, en presentaties te beschermen. Hiermee worden enkele opties in het menu Excel, Word en PowerPoint uitgeschakeld.
+AEM Document Security Extension for Microsoft Office gebruikt ingebouwde beveiligingsfuncties om documenten, werkbladen en presentaties te beschermen. Hiermee worden enkele opties in het menu Excel, Word en PowerPoint uitgeschakeld.
 
 ### Beperkingen voor Microsoft Office 2013, 2016 en 2019 {#restrictions-for-microsoft-office}
 
@@ -53,7 +53,7 @@ In Microsoft Office zijn de volgende opties niet beschikbaar tijdens een beveili
    * Bestand > Historie
    * Bestand > Delen
    * Bestand > Exporteren
-   * Bestand > Publiceren
+   * Bestand > Publish
    * Bestand > Account
    * Bestand > Info > Protect-document/werkboek/presentatie > Coderen met wachtwoord
    * Bestand > Info > Protect-document > Een digitale handtekening toevoegen
@@ -72,7 +72,7 @@ In Microsoft Office zijn de volgende opties niet beschikbaar tijdens een beveili
 
 ### Een beveiligd document openen vanaf SharePoint Server {#opening-a-protected-document-from-sharepoint-server}
 
-Het beveiligde document openen: Als u een beveiligd document probeert te openen in Documentbeveiligingsextensie voor Microsoft Office vanaf SharePoint Server zonder eerst het Microsoft Office-programma te openen dat is gekoppeld aan het bestandstype, zoals Microsoft Word, Microsoft Excel of Microsoft PowerPoint, is het mogelijk dat het document niet wordt geopend. Er wordt een foutbericht weergegeven waarin wordt aangegeven dat u de toepasselijke plug-in installeert. Daarom wordt u aangeraden het bijbehorende Microsoft Office-programma te openen voordat u een beveiligd document opent in Documentbeveiligingsextensie voor Microsoft Office vanaf SharePoint Server.
+Het beveiligde document openen: als u een beveiligd document probeert te openen in Documentbeveiligingsextensie voor Microsoft Office vanaf SharePoint Server zonder eerst het Microsoft Office-programma te openen dat is gekoppeld aan het bestandstype, zoals Microsoft Word, Microsoft Excel of Microsoft PowerPoint, wordt het document mogelijk niet geopend. Er wordt een foutbericht weergegeven waarin wordt aangegeven dat u de toepasselijke plug-in installeert. Daarom wordt u aangeraden het bijbehorende Microsoft Office-programma te openen voordat u een beveiligd document opent in Documentbeveiligingsextensie voor Microsoft Office vanaf SharePoint Server.
 
 (Optioneel) U wordt aangeraden de cachemap te wissen voordat u een beveiligd document opent in Document Security Extension for Microsoft Office vanaf SharePoint Server.
 
@@ -80,13 +80,13 @@ Wanneer u een beveiligd document opent vanaf SharePoint Server, worden alle mach
 
 ### Een beleid met een dynamisch watermerk toepassen op Microsoft Excel 2013, Microsoft Excel 2016 en Microsoft Excel 2019 zonder dat er een printer is geïnstalleerd {#apply-a-policy-with-a-dynamic-watermark-to-microsoft-excel-microsoft-excel-and-microsoft-excel-file-with-no-printer-installed}
 
-Als u een beleid met een dynamisch watermerk toepast op Microsoft Excel 2013, Microsoft Excel 2016 en Microsoft Excel 2019 op een computer waarop geen printers zijn geïnstalleerd en het bestand vervolgens opslaat, wordt de volgende fout weergegeven: &quot;Interne fout bij het toepassen van een dynamisch watermerk.&quot; Deze fout treedt ook op wanneer u het beveiligde bestand opnieuw opent. Het watermerk wordt niet toegepast en is niet zichtbaar via Weergave > Pagina-indeling.
+Wanneer u een beleid met een dynamisch watermerk toepast op Microsoft Excel 2013, Microsoft Excel 2016, en het dossier van Microsoft Excel 2019 op een computer die geen geïnstalleerde printers heeft en dan sparen het dossier, verschijnt de volgende fout: &quot;Interne fout terwijl het toepassen van dynamisch watermerk.&quot; Deze fout treedt ook op wanneer u het beveiligde bestand opnieuw opent. Het watermerk wordt niet toegepast en is niet zichtbaar via Weergave > Pagina-indeling.
 
 ### De Preventie van de Uitvoering van Gegevens van Vensters voor gesteunde toepassingen van het Bureau onbruikbaar {#disable-windows-data-execution-prevention-for-supported-office-applications}
 
 U wordt aangeraden de instelling DEP (Windows Data Execution Prevention) uit te schakelen wanneer u de documentbeveiligingsextensie voor Microsoft Office-toepassingen gebruikt.
 
-### Gedeelde Microsoft Office-bestanden kunnen niet worden beveiligd met Documentbeveiligingsextensie {#shared-microsoft-office-files-cannot-be-protected-using-document-security-extension}
+### Gedeelde Microsoft Office-bestanden kunnen niet worden beveiligd met Documentbeveiliging {#shared-microsoft-office-files-cannot-be-protected-using-document-security-extension}
 
 Wanneer u een gedeeld Microsoft Office-bestand beveiligt met Documentbeveiligingsextensie, treedt een fout op en wordt het gedeelde bestand niet beveiligd.
 

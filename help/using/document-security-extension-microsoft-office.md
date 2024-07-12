@@ -1,6 +1,6 @@
 ---
 title: Inleiding tot AEM Document Security Extension for Microsoft&reg; Office
-description: Documentbeveiligingsextensie voor Microsoft&reg gebruiken Office, kunt u vooraf bepaalde vertrouwelijkheidsmontages op uw Microsoft&reg toepassen; Office-bestanden.
+description: Met documentbeveiligingsextensie voor Microsoft&reg; Office kunt u vooraf gedefinieerde instellingen voor vertrouwelijkheid toepassen op uw Microsoft&reg; Office-bestanden.
 uuid: a5428c50-fae3-4823-9e6f-0f5306e7248f
 content-type: reference
 topic-tags: using
@@ -8,22 +8,22 @@ discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
 
 # Inleiding tot AEM Document Security Extension voor Microsoft® Office{#introduction-to-aem-document-security-extension-for-microsoft-office}
 
-De Uitbreiding van de Veiligheid van het Document van de Adobe® Experience Manager voor Microsoft® Office zorgt ervoor dat slechts de mensen u toestaat Word, Excel, en de dossiers van PowerPoint kunnen gebruiken die uw intellectuele bezit bevatten. Met Documentbeveiligingsextensie voor Microsoft® Office kunt u vooraf gedefinieerde instellingen voor vertrouwelijkheid toepassen op uw bestanden.
+De Uitbreiding van de Veiligheid van het Document van de Experience Manager® van de Adobe® voor Microsoft® Office zorgt ervoor dat slechts de mensen u toestaat Word, Excel, en de dossiers van PowerPoint kunnen gebruiken die uw intellectuele bezit bevatten. Met Documentbeveiligingsextensie voor Microsoft® Office kunt u vooraf gedefinieerde instellingen voor vertrouwelijkheid toepassen op uw bestanden.
 
-De Uitbreiding van de Veiligheid van het document voor Microsoft® Office breidt LiveCycle Rights Management en de Veiligheid van het Document toe:voegen-aan voor Adobe Experience Manager Forms uit om Word, Excel, en dossiers van PowerPoint te beschermen en erkende gebruikers toe te staan die deze software hebben geïnstalleerd om beleid-beschermde dossiers volgens de vertrouwelijkheidsmontages te gebruiken die in het beleid worden gevestigd.
+De Uitbreiding van de Veiligheid van het document voor Microsoft® Office breidt het Rights Management van het LiveCycle en de Veiligheid van het Document toe:voegen-op voor Adobe Experience Manager Forms om Word, Excel, en dossiers van PowerPoint te beschermen en erkende gebruikers toe te staan die deze software hebben geïnstalleerd om beleid-beschermde dossiers volgens de vertrouwelijkheidsmontages te gebruiken die in het beleid worden gevestigd.
 
 ## Hoe de Veiligheid van het Document intellectuele eigendom beschermt {#how-document-security-protects-intellectual-property}
 
-Documentbeveiliging zorgt ervoor dat alleen de personen die u autoriseert, bestanden kunnen gebruiken die uw intellectuele eigendom bevatten. Met Documentbeveiliging kunt u bestanden beveiligen met vertrouwelijkheidsbeleid. A *beleid* is een verzameling informatie met vertrouwelijkheidsinstellingen en een lijst met geautoriseerde gebruikers. De montages u in een beleid specificeert bepalen hoe een ontvanger een dossier kan gebruiken waarop u het beleid toepast. U kunt bijvoorbeeld opgeven of ontvangers tekst kunnen afdrukken of kopiëren of wijzigingen kunnen opslaan.
+Documentbeveiliging zorgt ervoor dat alleen de personen die u autoriseert, bestanden kunnen gebruiken die uw intellectuele eigendom bevatten. Met Documentbeveiliging kunt u bestanden beveiligen met vertrouwelijkheidsbeleid. A *beleid* is een inzameling van informatie die vertrouwelijkheidsmontages en een lijst van erkende gebruikers omvat. De montages u in een beleid specificeert bepalen hoe een ontvanger een dossier kan gebruiken waarop u het beleid toepast. U kunt bijvoorbeeld opgeven of ontvangers tekst kunnen afdrukken of kopiëren of wijzigingen kunnen opslaan.
 
-Beveiliging van documenten en gebruikers maken beleid. Beheerders maken organisatiebeleid dat beschikbaar is voor alle geautoriseerde gebruikers. Beheerders of beleidssetcoördinatoren kunnen ook groepen beleidsregels maken die *beleidssets* die beschikbaar zijn voor een subset van gebruikers. Gebruikers kunnen hun eigen beleid maken, dat alleen zij kunnen gebruiken. Beheerders, beleidssetcoördinatoren en gebruikers maken beleid met behulp van de webpagina&#39;s Documentbeveiliging.
+Beveiliging van documenten en gebruikers maken beleid. Beheerders maken organisatiebeleid dat beschikbaar is voor alle gemachtigde gebruikers. De beheerders of de coördinatoren van de beleidsreeks kunnen groepen beleid tot stand brengen genoemd *beleidsreeksen* die aan een ondergroep van gebruikers beschikbaar zijn. Gebruikers kunnen hun eigen beleid maken, dat alleen zij kunnen gebruiken. Beheerders, beleidssetcoördinatoren en gebruikers maken beleid met behulp van de webpagina&#39;s Documentbeveiliging.
 
 Hoewel het beleid op de Veiligheid van het Document wordt opgeslagen, past u hen op dossiers door Word, Excel, of PowerPoint toe. Wanneer u een beleid op een dossier toepast, wordt de informatie die het dossier bevat beschermd door de vertrouwelijkheidsmontages die in het beleid worden gespecificeerd. Wanneer u het bestand distribueert dat met een beleid is beveiligd, hebben alleen de ontvangers die door het beleid zijn gemachtigd toegang tot de inhoud van het bestand.
 
@@ -43,18 +43,18 @@ Als het beleid offline toegang toestaat, kunnen de ontvangers beleid-beschermde 
 
 ## Hoe beleidsbeveiligde bestanden werken {#how-policy-protected-files-work}
 
-Voor een gebruiker om beleid-beschermde Word, Excel, en de dossiers van PowerPoint te openen en te gebruiken, moet het beleid de gebruiker als ontvanger omvatten of anonieme toegang toestaan. En de gebruiker moet Document Security Extension for Microsoft® Office hebben geïnstalleerd. Als u een bestand met documentbeveiliging wilt geven aan iemand die geen documentbeveiligingsextensie voor Microsoft® Office heeft, geeft u de gebruiker een kopie van de software of vertelt u hoe u het bestand van uw website kunt downloaden. Als u het installatieprogramma niet hebt, kunt u het downloaden van de [downloadpagina](https://experienceleague.adobe.com/docs/experience-manager-document-security/using/download-installer.html?lang=en).
+Voor een gebruiker om beleid-beschermde Word, Excel, en de dossiers van PowerPoint te openen en te gebruiken, moet het beleid de gebruiker als ontvanger omvatten of anonieme toegang toestaan. En de gebruiker moet Document Security Extension for Microsoft® Office hebben geïnstalleerd. Als u een bestand met documentbeveiliging wilt geven aan iemand die geen documentbeveiligingsextensie voor Microsoft® Office heeft, geeft u de gebruiker een kopie van de software of vertelt u hoe u het bestand van uw website kunt downloaden. Als u niet het installatieprogramma hebt, kunt u het van de [ downloadpagina ](https://experienceleague.adobe.com/docs/experience-manager-document-security/using/download-installer.html?lang=en) downloaden.
 
 Wanneer een gebruiker een bestand probeert te openen dat met een beleid is beveiligd, maakt Extensie Documentbeveiliging voor Microsoft® Office verbinding met Documentbeveiliging om de gebruiker te verifiëren. Als de Veiligheid van het Document aan controledossiergebruik wordt gevormd, ziet de gebruiker een bericht erop wijzend dat het dossiergebruik wordt gecontroleerd. Documentbeveiliging bepaalt welke bestandsmachtigingen de gebruiker kunnen krijgen en de gebruiker het bestand vervolgens kan gebruiken volgens de beleidsinstellingen, onder de volgende voorwaarden:
 
 * Voor de geldigheidsperiode die in het beleid wordt gespecificeerd.
 * Tot een beheerder of de persoon die het beleid toepaste, de toegang tot het bestand intrekt of het beleid wijzigt.
 
-   Als de persoon die het beleid toepaste het beleid verandert of toegang tot het dossier terugtrekt, worden de toestemmingen van de gebruiker voor het dossier veranderd of verwijderd alhoewel de gebruiker reeds het dossier heeft. Als het bestand zelf is ingetrokken, ontvangt de gebruiker mogelijk een URL om een bijgewerkte kopie op te halen.
+  Als de persoon die het beleid toepaste het beleid verandert of toegang tot het dossier terugtrekt, worden de toestemmingen van de gebruiker voor het dossier veranderd of verwijderd alhoewel de gebruiker reeds het dossier heeft. Als het bestand zelf is ingetrokken, ontvangt de gebruiker mogelijk een URL om een bijgewerkte kopie op te halen.
 
-   Met beleid beveiligde bestanden kunnen offline worden geopend (zonder internet- of netwerkverbinding) als het beleid offline toegang toestaat, tijdens de offline leaseperiode die in het beleid is opgegeven. Wanneer de offline leaseperiode afloopt, moet de gebruiker online gaan en synchroniseren met Documentbeveiliging, die een nieuwe leaseperiode start.
+  Met beleid beveiligde bestanden kunnen offline worden geopend (zonder internet- of netwerkverbinding) als het beleid offline toegang toestaat, tijdens de offline leaseperiode die in het beleid is opgegeven. Wanneer de offline leaseperiode afloopt, moet de gebruiker online gaan en synchroniseren met Documentbeveiliging, die een nieuwe leaseperiode start.
 
-   Als het beleid toestaat dat het dossier wordt opgeslagen en een gebruiker een exemplaar van het beleid-beschermde dossier bewaart, wordt het beleid automatisch toegepast en voor het bewaarde dossier afgedwongen. Gebeurtenissen, zoals pogingen om het nieuwe bestand te openen, worden ook gecontroleerd en op dezelfde manier opgenomen als in het oorspronkelijke bestand.
+  Als het beleid toestaat dat het dossier wordt opgeslagen en een gebruiker een exemplaar van het beleid-beschermde dossier bewaart, wordt het beleid automatisch toegepast en voor het bewaarde dossier afgedwongen. Gebeurtenissen, zoals pogingen om het nieuwe bestand te openen, worden ook gecontroleerd en op dezelfde manier opgenomen als in het oorspronkelijke bestand.
 
 ## Documentbeveiliging gebruiken om uw bestanden te beveiligen {#using-document-security-to-protect-your-files}
 
@@ -78,11 +78,11 @@ De bronnen in deze tabel kunnen u helpen meer te weten te komen over AEM documen
   </tr>
   <tr>
    <td><p>Help bij AEM</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/get-started/configure-general-aem-forms-settings.html?lang=en">Help bij beheerder</a> of klik op de pagina's voor documentbeveiligingsbeheer op de koppeling Help in de rechterbovenhoek van een pagina.</p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/get-started/configure-general-aem-forms-settings.html?lang=en"> Hulp van de Beheerder </a> of, op de het beleidspagina's van de Veiligheid van het Document, klik de verbinding van de Hulp in de hoger-juiste hoek van een pagina.</p> </td>
   </tr>
   <tr>
    <td><p>Reparatie-updates, technische notities en aanvullende informatie over deze productversie</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support">Experience Cloud Technische ondersteuning</a></p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support">Technische ondersteuning Experience Cloud</a></p> </td>
   </tr>
  </tbody>
 </table>

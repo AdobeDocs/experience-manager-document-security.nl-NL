@@ -9,7 +9,7 @@ discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
 exl-id: 98f24032-0774-47f8-bcc5-1ee37b417833
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Problemen met installatie en configuratie oplossen {#troubleshootinginstallationandconfiguration}
 
-Als u problemen ondervindt bij het installeren en configureren AEM Documentbeveiligingsextensie voor Microsoft Office, dient u zorgvuldig de instructies te volgen die worden vermeld in het gedeelte - voor u de installatie uitvoert - van [installatie](installing-configuring-aemdsext.md) artikel.
+Als u problemen hebt die en AEM de Uitbreiding van de Veiligheid van het Document voor Microsoft Office installeren vormen, zorg ervoor dat u zorgvuldig de instructies volgde die in worden vermeld - alvorens u installeert - sectie van [ installatie ](installing-configuring-aemdsext.md) artikel.
 
 Als u alles hebt geïnstalleerd en geconfigureerd volgens de documentatie, controleert u de volgende secties op problemen die lijken op de problemen die u ondervindt.
 
@@ -26,13 +26,13 @@ Als u alles hebt geïnstalleerd en geconfigureerd volgens de documentatie, contr
 
 Met de eigenschap LoadBehavior in Windows-register wordt het runtimegedrag van de insteekmodule voor documentbeveiliging aangegeven. Als de eigenschap LoadBehavior is ingesteld op 3, worden alle plug-ins automatisch geladen. Voordat u de Document Security Extension for Microsoft Office installeert, moet u ervoor zorgen dat de eigenschap value LoadBehavior is ingesteld op 3.
 
-1. Maak een back-up van het Windows-register voordat u de wijzigingen aanbrengt. Zie voor gedetailleerde instructies [Hoe te om het Register van Vensters te wijzigen](https://support.microsoft.com/en-us/kb/136393).
+1. Maak een back-up van het Windows-register voordat u de wijzigingen aanbrengt. Voor gedetailleerde instructies, zie [ hoe te de Registratie van Vensters wijzigen ](https://support.microsoft.com/en-us/kb/136393).
 1. Navigeer in de Register-editor naar toHKEY_CURRENT_USER\Software\Microsoft\Office\Word\Addins\Adobe.DRMIntegration.WordAddin of HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Word\Addins\Adobe.DRM.
-1. Waarde instellen voor de **LoadBehavior** eigenschap naar 3.
+1. Plaats waarde van het **bezit LoadBehavior** aan 3.
 
 1. Sluit de Register-editor.
 
-Voor gedetailleerde informatie over LoadBehavior raadpleegt u de [Registeritems voor VSTO-invoegtoepassingen](https://msdn.microsoft.com/en-us/library/bb386106.aspx#LoadBehavior) artikel.
+Voor gedetailleerde informatie over LoadBehavior, zie de [ Ingangen van de Registratie voor toe:voegen-ins VSTO ](https://msdn.microsoft.com/en-us/library/bb386106.aspx#LoadBehavior) artikel.
 
 ## Problemen met beheertaken oplossen {#admintasks}
 

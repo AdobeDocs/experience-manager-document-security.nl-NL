@@ -4,9 +4,9 @@ description: AEM Document Security Extension gebruiken voor Microsoft Office
 uuid: 8d98a355-df25-4d8e-ae76-a63a93f280c4
 contentOwner: dhv
 discoiquuid: df6ca960-ccfb-411a-b61d-d52bce0725a7
-source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
+source-git-commit: 8a10fb9fa24409b695fdaf1431228c6281bf78c3
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >[ Inleiding om de Uitbreiding van de Veiligheid van het Document voor Microsoft Office te AEM ](../document-security-extension-microsoft-office.md) {#introduction-to-aem-document-security-extension-for-microsoft-office}
 >
->Met de extensie Documentbeveiliging voor Microsoft Office kunt u vooraf gedefinieerde instellingen voor vertrouwelijkheid toepassen op uw Microsoft Office-bestanden.
+>Met Extensie Documentbeveiliging voor Microsoft Office kunt u vooraf gedefinieerde instellingen voor vertrouwelijkheid toepassen op uw Microsoft Office-bestanden.
 
 >[!NOTE]
 >

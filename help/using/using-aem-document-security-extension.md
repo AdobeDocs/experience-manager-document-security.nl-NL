@@ -52,7 +52,7 @@ Als u toegang moet krijgen tot de webpagina&#39;s voor documentbeveiliging via c
 
 #### Verbindingsinstellingen configureren {#configure-connection-settings}
 
-1. In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en Bureau 2013, op het **lusje van de Veiligheid van het 0} Document, uitgezocht** kies Server **.**
+1. In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en Bureau 2013, op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezocht** kies Server **.**
 1. Of klik **Nieuw** om verbindingsmontages tot stand te brengen, of een bestaande verbinding te selecteren en **te klikken geeft** uit.
 1. Typ een naam voor de verbinding in het **vakje van de Naam**. U kunt elke gewenste naam gebruiken.
 1. Typ het adres van de server in het **vakje van het Adres van de Server**.
@@ -82,7 +82,7 @@ Als u toegang moet krijgen tot de webpagina&#39;s voor documentbeveiliging via c
 
 1. Ga als volgt te werk:
 
-   * In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en Bureau 2013 op het **lusje van de Veiligheid van het 0} Document, uitgezocht** kies Server **.**
+   * In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en Bureau 2013 op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezocht** kies Server **.**
 
 1. Selecteer een server om als gebrek te specificeren en **te klikken plaats Gebrek**. Er wordt een sterretje weergegeven naast de standaardserver.
 
@@ -337,7 +337,7 @@ Nadat u een beleid toepaste, wordt het toegevoegd aan de Recent Gebruikte lijst 
 
 #### Een beleid toepassen {#apply-a-policy}
 
-1. In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013 op het **lusje van de Veiligheid van het 0} Document, uitgezochte** Veilig > kiest Beleid **.**
+1. In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013 op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezochte** Veilig > kiest Beleid **.**
 
    Als u gebruikersnaam en wachtwoord hebt gekozen als verificatiemethode op de server en nog geen aanmeldingsgegevens voor Documentbeveiliging hebt opgegeven, wordt u in een dialoogvenster gevraagd om uw gebruikersnaam en wachtwoord.
 
@@ -346,7 +346,7 @@ Nadat u een beleid toepaste, wordt het toegevoegd aan de Recent Gebruikte lijst 
 
 #### Pas een onlangs gebruikt beleid toe {#apply-a-recently-used-policy}
 
-1. In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0} Document, uitgezochte** Veilig **> *[Naam van het Beleid]*.**
+1. In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezochte** Veilig **> *[Naam van het Beleid]*.**
 1. Sla het bestand op.
 
 ## Werken met de beleidsbeveiligde bestanden {#usingaemdocumentsecurityextensionpolicyprotectedfiles}
@@ -387,7 +387,7 @@ De gebruikerservaring bij het openen van beveiligde bestanden is afhankelijk van
 
 Als u hiervoor toestemming hebt gekregen, kunt u de beleidsbeveiliging verwijderen uit bestanden die u hebt beveiligd. Als u dit doet, wordt het bestand niet meer beveiligd door Documentbeveiliging.
 
-1. In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0} Document, uitgezochte** verwijdert **.**
+1. In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezochte** verwijdert **.**
 
    Als u nog geen aanmeldingsgegevens voor Documentbeveiliging hebt opgegeven, wordt u in een dialoogvenster gevraagd om uw gebruikersnaam en wachtwoord.
 
@@ -403,7 +403,7 @@ In Document Security Extension for Microsoft® Office 2010 geeft de groep Securi
 
 Ga als volgt te werk:
 
-* In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het Document**, in de **3} groep van de Status van de Veiligheid, klik om het even welk punt.**
+* In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het Document**, in de **3&rbrace; groep van de Status van de Veiligheid, klik om het even welk punt.**
 
 ### Documenten opslaan wanneer Beleid automatisch toepassen is ingeschakeld {#saving-documents-when-auto-apply-policy-is-enabled}
 
@@ -421,9 +421,9 @@ Met beleidsregels kunt u bestanden openen terwijl u offline bent en geen verbind
 
 Ga als volgt te werk:
 
-* In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0} Document, uitgezocht** synchroniseer Off-line **.**
+* In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezocht** synchroniseer Off-line **.**
 
-  ***nota **: Synchronize off-line knoop is beschikbaar alhoewel de gebruiker geen off-line toestemming voor het document heeft. Nochtans, doet het selecteren van de knoop niets.*
+  ***nota &#x200B;**: Synchronize off-line knoop is beschikbaar alhoewel de gebruiker geen off-line toestemming voor het document heeft. Nochtans, doet het selecteren van de knoop niets.*
 
 ### Werken met dynamische watermerken {#working-with-dynamic-watermarks}
 
@@ -482,7 +482,7 @@ Documentbeveiligingsextensie voor Microsoft® Office biedt ondersteuning voor de
 
 U kunt de Web-pagina&#39;s van de Veiligheid van het Document openen om uw gebruikersbeleid tot stand te brengen en bij te werken en status en controleinformatie over uw beleid-beschermde dossiers te bekijken. U kunt de Web-pagina&#39;s van de Veiligheid van het Document ook gebruiken om beleid te veranderen of toegang voor een beleid-beschermd dossier in te trekken.
 
-Om de Web-pagina&#39;s van de Veiligheid van het Document, in de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0} Document te openen,** creeer en beheer Beleid **.** Als u nog geen aanmeldingsgegevens hebt opgegeven, wordt de browser geopend op de aanmeldingspagina van de server.
+Om de Web-pagina&#39;s van de Veiligheid van het Document, in de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0&rbrace; Document te openen,** creeer en beheer Beleid **.** Als u nog geen aanmeldingsgegevens hebt opgegeven, wordt de browser geopend op de aanmeldingspagina van de server.
 
 ### Beleid wijzigen {#changing-policies}
 
@@ -492,7 +492,7 @@ Als u de instellingen voor een beleid wilt wijzigen, gebruikt u de webpagina&#39
 
 1. Ga als volgt te werk:
 
-   * In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 of 2013, op het **lusje van de Veiligheid van het 0} Document, uitgezochte** Veilig > Veiligheid van de Verandering **.**
+   * In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 of 2013, op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezochte** Veilig > Veiligheid van de Verandering **.**
 
 1. Selecteer een beleid van de lijst en klik **toepassen**.
 
@@ -502,7 +502,7 @@ U kunt de mogelijkheid intrekken om bestanden te openen die u hebt beveiligd. Wa
 
 1. Ga als volgt te werk:
 
-   * In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0} Document, uitgezochte** trekt **terug.**
+   * In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezochte** trekt **terug.**
 
    De webpagina&#39;s voor documentbeveiliging worden geopend op de pagina Documenten intrekken.
 
@@ -530,7 +530,7 @@ De gecontroleerde gebeurtenissen voor Word, Excel, en de dossiers van PowerPoint
 
 **wijzig het Dossier van het Document** veranderde en plaatselijk bewaarde
 
-**Van de hoge Resolutie van de druk 1} Druk Afgedrukt Dossier**
+**Van de hoge Resolutie van de druk 1&rbrace; Druk Afgedrukt Dossier**
 
 **de bescherming van het Beleid van de Beveiliging van de Verandering die van dossier wordt verwijderd**
 
@@ -538,7 +538,7 @@ De gecontroleerde gebeurtenissen voor Word, Excel, en de dossiers van PowerPoint
 
 ### De auditgeschiedenis van een bestand weergeven {#view-the-audit-history-for-a-file}
 
-In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0} Document, uitgezochte** Geschiedenis van de Controle **.**
+In de Uitbreiding van de Veiligheid van het Document voor Microsoft® Office 2010 en 2013, op het **lusje van de Veiligheid van het 0&rbrace; Document, uitgezochte** Geschiedenis van de Controle **.**
 
 De Web-pagina&#39;s van de Veiligheid van het Document openen aan de pagina van Gebeurtenissen, die gecontroleerde gebeurtenissen voor het huidige dossier toont.
 
@@ -583,7 +583,7 @@ Als u een bestand opent dat met een beleid is beveiligd in Word, kunt u de gegev
 
 **Dossier > de Werkschema&#39;s** niet beschikbaar tijdens een beschermde zitting.
 
-***Nota **: Beginnend een werkschema in Word, Excel, en PowerPoint 2010 is slechts beschikbaar in de Beroeps van het Bureau plus 2010, de Onderneming 2010 van het Bureau, het Bureau Ultimate 2010, en stand-alone versies van 2010.*
+***Nota &#x200B;**: Beginnend een werkschema in Word, Excel, en PowerPoint 2010 is slechts beschikbaar in de Beroeps van het Bureau plus 2010, de Onderneming 2010 van het Bureau, het Bureau Ultimate 2010, en stand-alone versies van 2010.*
 
 **Blogpost > Publish** niet beschikbaar tijdens een beschermde zitting.
 
@@ -597,7 +597,7 @@ Als u een bestand opent dat met een beleid is beveiligd in Word, kunt u de gegev
 
 **Tussenvoegsel > Tekst > Voorwerp** niet beschikbaar tijdens een beschermde zitting. Met een beleid beveiligde bestanden kunnen op geen enkel moment worden ingevoegd.
 
-**de Meeste opties op dit lusje van Maken 0} {zijn niet beschikbaar tijdens een beschermde zitting.**
+**de Meeste opties op dit lusje van Maken 0&rbrace; &lbrace;zijn niet beschikbaar tijdens een beschermde zitting.**
 
 **Overzicht > het Bewijzen > Onderzoek** Beperkt door de toestemming van het Exemplaar. Niet beschikbaar als kopiëren niet is toegestaan.
 
@@ -655,7 +655,7 @@ De onderstaande functies zijn beperkt in de beschreven situaties:
 
 **Dossier > de Werkschema&#39;s** niet beschikbaar tijdens een beschermde zitting.
 
-***Nota **: Beginnend een werkschema in Word, Excel, en PowerPoint 2010 is slechts beschikbaar in de Beroeps van het Bureau plus 2010, de Onderneming 2010 van het Bureau, het Bureau Ultimate 2010, en stand-alone versies van 2010.*
+***Nota &#x200B;**: Beginnend een werkschema in Word, Excel, en PowerPoint 2010 is slechts beschikbaar in de Beroeps van het Bureau plus 2010, de Onderneming 2010 van het Bureau, het Bureau Ultimate 2010, en stand-alone versies van 2010.*
 
 **Dossier > de Server > Menu van de Taken van de Server van het Dossier** niet beschikbaar tijdens een beschermde zitting.
 
@@ -717,7 +717,7 @@ De onderstaande functies zijn beperkt in de beschreven situaties:
 
 **sparen AutoHerstelt Info** niet beschikbaar tijdens een beschermde zitting.
 
-***Nota **: Als u probeert om een cel in een beleid-beschermd dossier zonder toestemming te veranderen, waarschuwt Excel verkeerd u om het Unprotect bevel van het Blad te gebruiken om de bescherming te verwijderen.*
+***Nota &#x200B;**: Als u probeert om een cel in een beleid-beschermd dossier zonder toestemming te veranderen, waarschuwt Excel verkeerd u om het Unprotect bevel van het Blad te gebruiken om de bescherming te verwijderen.*
 
 #### Beperkingen van PowerPoint 2010 en PowerPoint 2013 {#powerpoint-2010-and-powerpoint-2013-restrictions}
 

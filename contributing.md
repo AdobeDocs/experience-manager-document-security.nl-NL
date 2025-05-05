@@ -58,4 +58,4 @@ Adobe is blij met een bijdrage en beoordeelt uw bijdrage als deze via de openbar
 
 ## Aanvullende informatie
 
-Zie de [ Gids van de Medewerker van Docs van de Adobe ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) voor meer details op hoe te om het het auteursplatform van GitHub te gebruiken.
+Zie de [ Gids van de Medewerker van Docs van de Adobe ](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction) voor meer details op hoe te om het het auteursplatform van GitHub te gebruiken.

@@ -43,7 +43,7 @@ Als het beleid offline toegang toestaat, kunnen de ontvangers beleid-beschermde 
 
 ## Hoe beleidsbeveiligde bestanden werken {#how-policy-protected-files-work}
 
-Voor een gebruiker om beleid-beschermde Word, Excel, en de dossiers van PowerPoint te openen en te gebruiken, moet het beleid de gebruiker als ontvanger omvatten. Of, het moet anonieme toegang toestaan. En de gebruiker moet de Extensie van de Veiligheid van het Document voor Microsoft® Office hebben geïnstalleerd. Als u een bestand met documentbeveiliging wilt geven aan iemand die geen documentbeveiligingsextensie voor Microsoft® Office heeft, kunt u deze een kopie van de software geven. U kunt ze ook vertellen hoe u het bestand van uw website kunt downloaden. Als u niet het installatieprogramma hebt, kunt u het van de [ downloadpagina ](https://experienceleague.adobe.com/en/docs/experience-manager-document-security/using/download-installer) downloaden.
+Voor een gebruiker om beleid-beschermde Word, Excel, en de dossiers van PowerPoint te openen en te gebruiken, moet het beleid de gebruiker als ontvanger omvatten. Of, het moet anonieme toegang toestaan. En de gebruiker moet de Extensie van de Veiligheid van het Document voor Microsoft® Office hebben geïnstalleerd. Als u een bestand met documentbeveiliging wilt geven aan iemand die geen documentbeveiligingsextensie voor Microsoft® Office heeft, kunt u deze een kopie van de software geven. U kunt ze ook vertellen hoe u het bestand van uw website kunt downloaden. Als u niet het installatieprogramma hebt, kunt u het van de [ downloadpagina ](https://experienceleague.adobe.com/nl/docs/experience-manager-document-security/using/download-installer) downloaden.
 
 Wanneer een gebruiker een bestand probeert te openen dat met een beleid is beveiligd, maakt de documentbeveiligingsextensie voor Microsoft® Office verbinding met Documentbeveiliging om de gebruiker te verifiëren. Als de Veiligheid van het Document aan controledossiergebruik wordt gevormd, ziet de gebruiker een bericht erop wijzend dat het dossiergebruik wordt gecontroleerd. Documentbeveiliging bepaalt welke bestandsmachtigingen de gebruiker kunnen krijgen en de gebruiker het bestand vervolgens kan gebruiken volgens de beleidsinstellingen, onder de volgende voorwaarden:
 
@@ -78,11 +78,11 @@ De bronnen in deze tabel kunnen u helpen meer te weten te komen over AEM documen
   </tr>
   <tr>
    <td><p>Help bij AEM</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/administrator-help/get-started/configure-general-aem-forms-settings"> Hulp van de Beheerder </a> of, op de het beleidspagina's van de Veiligheid van het Document, klik de verbinding van de Hulp in de hoger-juiste hoek van een pagina.</p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/forms/administrator-help/get-started/configure-general-aem-forms-settings"> Hulp van de Beheerder </a> of, op de het beleidspagina's van de Veiligheid van het Document, klik de verbinding van de Hulp in de hoger-juiste hoek van een pagina.</p> </td>
   </tr>
   <tr>
    <td><p>Reparatie-updates, technische notities en aanvullende informatie over deze productversie</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support">Technische ondersteuning Experience Cloud</a></p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/nl?support-solution=General&amp;support-tab=home#support">Technische ondersteuning Experience Cloud</a></p> </td>
   </tr>
  </tbody>
 </table>

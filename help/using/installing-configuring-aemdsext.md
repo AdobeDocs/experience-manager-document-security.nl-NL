@@ -264,7 +264,7 @@ U kunt de gebruikersinterface zonder lint in-/uitschakelen door instellingen in 
 1. Ga in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Creeer een nieuwe (met 32 bits) genoemde waarde Dword **HidePluginUI**.
 
-1. Plaats de waarde van het **** bezit HidePluginUI aan 1 om een lint-less gebruikersinterface toe te laten.
+1. Plaats de waarde van het **&#x200B;**&#x200B;bezit HidePluginUI aan 1 om een lint-less gebruikersinterface toe te laten.
 
 1. Sluit de Register-editor.
 

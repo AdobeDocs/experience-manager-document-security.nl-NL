@@ -5,26 +5,26 @@ uuid: b4c7d1d1-7eae-4fd3-8282-132c80a976e8
 contentOwner: khsingh
 discoiquuid: b32c7bb8-0060-4c2a-90fc-446b6ba39159
 exl-id: 25d2f439-e6c9-4d0a-bbd1-91d0f00dc683
-source-git-commit: 3b6a686966fb8d006bed8cc4a4bf5eebe0dfb030
+source-git-commit: 265c81b4b424c96e1d53c962af39756ee43c443d
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Document Security/LiveCycle Rights Management Extension voor Microsoft® Office downloaden {#download-adobe-experience-manager-document-security-livecycle-rights-management-extension-for-microsoft-office}
+# Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft® Office downloaden {#download-adobe-experience-manager-document-security-livecycle-rights-management-extension-for-microsoft-office}
 
 Met Documentbeveiligingsextensie voor Microsoft® Office-software kunt u de vertrouwelijkheid van vertrouwelijke informatie behouden. U kunt kritieke bestanden altijd beschermen tegen ongeoorloofde toegang. Deze bescherming is van toepassing vanaf het maken van documenten tot en met de verspreiding. Het omvat ook archivering en vernietiging, ongeacht hoe de bestanden worden gedistribueerd of waar ze worden opgeslagen.
 
 >[!NOTE]
 >
->De extensie ondersteunt zowel LiveCyclee Rights Management ES2 of hoger als Document Security add-on voor AEM 6.0 Forms of hoger.
+>De extensie ondersteunt zowel LiveCycle Rights Management ES2 of hoger als de add-on Documentbeveiliging voor AEM 6.0 Forms of hoger.
 
 ## Systeemvereisten {#system-requirements}
 
-* 32-bits of 64-bits versies van Microsoft® Windows 7 of Windows 10
+* 32-bits of 64-bits versies van Microsoft® Office 2019 Professional Plus op Microsoft® Windows 11
+* 32-bits of 64-bits versies van Microsoft® Office 2016, Office 2019 of Office-bureaubladtoepassingen die zijn geïnstalleerd als onderdeel van Office 365 op Microsoft® Windows 10
 * Opmerking: de documentbeveiligingsextensie voor Microsoft® Office werkt naar verwachting ook op Microsoft® Surface-apparaten.
-* 32-bits of 64-bits versies van Microsoft® Office 2013, 2016, 2019 of Microsoft® Office-bureaubladtoepassingen geïnstalleerd als onderdeel van Office 365
 * 1,3-GHz processor of hoger
 * 2 GB RAM
 * 100 MB beschikbare ruimte op de vaste schijf

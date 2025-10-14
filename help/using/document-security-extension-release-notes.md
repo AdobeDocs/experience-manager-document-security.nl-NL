@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Deze versie van Document Security Extension voor Microsoft Office is compatibel met Adobe LiveCycle Rights Management ES2 en hoger en de Document Security Add-on voor AEM formulieren.
 
-Controleer de gegevens in dit document voordat u AEM Document Security Extension for Microsoft Office installeert. Voor gedetailleerde installatieinstructies, zie [ het Installeren van en het Vormen de Uitbreiding van de Veiligheid van het AEM van het Document voor Microsoft Office ](installing-configuring-aemdsext.md) artikel.
+Controleer de gegevens in dit document voordat u AEM Document Security Extension for Microsoft Office installeert. Voor gedetailleerde installatieinstructies, zie [&#x200B; het Installeren van en het Vormen de Uitbreiding van de Veiligheid van het AEM van het Document voor Microsoft Office &#x200B;](installing-configuring-aemdsext.md) artikel.
 
 ## Opgeloste problemen {#fixed-issues}
 

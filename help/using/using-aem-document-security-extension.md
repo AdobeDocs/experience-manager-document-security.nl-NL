@@ -138,7 +138,7 @@ Uitgebreide verificatie inschakelen met een aangepaste bestemmings-URL:
    >
    >&lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/> `!!discoiqbr!!` &lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;> `!!discoiqbr!!` &lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/> `!!discoiqbr!!`
 
-   Voor geleidelijke informatie bij het bijwerken van het config.xml- dossier, zie [ manueel het uitgeven van het dossier van de documentveiligheidsconfiguratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions#manually_editing_the_document_security_configuration_file).
+   Voor geleidelijke informatie bij het bijwerken van het config.xml- dossier, zie [&#x200B; manueel het uitgeven van het dossier van de documentveiligheidsconfiguratie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions#manually_editing_the_document_security_configuration_file).
 
    Nu is de beveiliging van AEM Forms-documenten geconfigureerd voor uitgebreide verificatie met een aangepaste bestemmings-URL
 
@@ -323,7 +323,7 @@ Sommige beleidsinstellingen die beschikbaar zijn voor het maken van beleid op de
  </tbody>
 </table>
 
-Voor meer informatie over het creëren van en het leiden van beleid, zie [ Eind - de Hulp van de Gebruiker van de Veiligheid van het Document ](https://help.adobe.com/en_US/AEMForms/6.1/RMHelp/).
+Voor meer informatie over het creëren van en het leiden van beleid, zie [&#x200B; Eind - de Hulp van de Gebruiker van de Veiligheid van het Document &#x200B;](https://help.adobe.com/en_US/AEMForms/6.1/RMHelp/).
 
 ### Beleid toepassen {#applying-policies}
 
@@ -431,7 +431,7 @@ De Uitbreiding van de Veiligheid van het document voor Microsoft® Office steunt
 
 Documentbeveiligingsextensie ondersteunt geen uitgebreide watermerkfuncties. Veelzijdige watermerkfuncties zijn onder andere watermerken op basis van PDF, meerdere elementen in een watermerk en tekstopmaakopties. Deze omvatten ook het paginabereik.
 
-U kunt een dynamisch watermerk maken met behulp van de webpagina&#39;s voor documentbeveiliging. Voor meer informatie, zie [ Eind - de Hulp van de Gebruiker van de Veiligheid van het Document ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/forms/administrator-help/work-with-document-security/document-security).
+U kunt een dynamisch watermerk maken met behulp van de webpagina&#39;s voor documentbeveiliging. Voor meer informatie, zie [&#x200B; Eind - de Hulp van de Gebruiker van de Veiligheid van het Document &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/forms/administrator-help/work-with-document-security/document-security).
 
 Documentbeveiligingsextensie voor Microsoft® Office biedt ondersteuning voor de volgende watermerkfuncties:
 
@@ -508,7 +508,7 @@ U kunt de mogelijkheid intrekken om bestanden te openen die u hebt beveiligd. Wa
 
 1. Specificeer een bericht aan vertoning en, indien beschikbaar, een URL voor de bijgewerkte versie, en klik **O.K.**.
 
-Voor meer informatie over het intrekken van de voorrechten van de dossiertoegang, zie [ Eind - de Hulp van de Gebruiker van de Veiligheid van het Document ](https://help.adobe.com/en_US/AEMForms/6.1/RMHelp/).
+Voor meer informatie over het intrekken van de voorrechten van de dossiertoegang, zie [&#x200B; Eind - de Hulp van de Gebruiker van de Veiligheid van het Document &#x200B;](https://help.adobe.com/en_US/AEMForms/6.1/RMHelp/).
 
 Toegangsrechten kunnen opnieuw worden ingesteld via de webpagina&#39;s voor documentbeveiliging.
 
@@ -779,4 +779,4 @@ U kunt externe verificatieproviders gebruiken met AEM Forms Document Security. M
 
 ## Verklarende woordenlijst {#glossary}
 
-Voor informatie over LiveCycle en AEM vormen op de terminologie van JEE, zie [ Hoofdstuk 19: Verklarende woordenlijst ](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/using-designer.pdf).
+Voor informatie over LiveCycle en AEM vormen op de terminologie van JEE, zie [&#x200B; Hoofdstuk 19: Verklarende woordenlijst &#x200B;](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/pdf/using-designer.pdf).

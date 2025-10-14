@@ -31,6 +31,6 @@ Met Documentbeveiligingsextensie voor Microsoft® Office-software kunt u de vert
 
 ## Installatieprogramma downloaden {#download-installer}
 
-| Microsoft® Office 32-bits | [ download EXE ](https://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.exe) (SHA1: df03bbdd9722c63a46b245c303cdb335ee2d0fce) | [ Download MSI ](https://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.zip) (SHA1: e70661f72ba640c37911c6d17d520ceaf84c2122) |
+| Microsoft® Office 32-bits | [&#x200B; download EXE &#x200B;](https://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.exe) (SHA1: df03bbdd9722c63a46b245c303cdb335ee2d0fce) | [&#x200B; Download MSI &#x200B;](https://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.zip) (SHA1: e70661f72ba640c37911c6d17d520ceaf84c2122) |
 |---|---|---|
-| Microsoft® Office 64-bits | [ download EXE ](https://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.exe) (SHA1: f4f0327f3cb5dc4c4a5c3da191062280870fc176) | [ Download MSI ](https://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.zip) (SHA1: 73f408f860143008915ee86b13edd0e76789b4fc) |
+| Microsoft® Office 64-bits | [&#x200B; download EXE &#x200B;](https://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.exe) (SHA1: f4f0327f3cb5dc4c4a5c3da191062280870fc176) | [&#x200B; Download MSI &#x200B;](https://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.zip) (SHA1: 73f408f860143008915ee86b13edd0e76789b4fc) |

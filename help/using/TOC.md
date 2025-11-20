@@ -16,8 +16,8 @@ ht-degree: 42%
 # Handleiding voor documentbeveiliging van Adobe Experience Manager {#using}
 
 + [Inleiding tot AEM Document Security Extension voor Microsoft Office](document-security-extension-microsoft-office.md)
-+ [Documentbeveiliging AEM voor Microsoft Office - Opmerkingen bij de release](document-security-extension-release-notes.md)
-+ [Adobe Experience Manager Document Security/LiveCycle Rights Management Extension voor Microsoft Office downloaden](download-installer.md)
-+ [Documentbeveiligingsextensie voor Microsoft Office installeren en configureren AEM](installing-configuring-aemdsext.md)
++ [AEM Document Security for Microsoft Office - Release-aantekeningen](document-security-extension-release-notes.md)
++ [Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office downloaden](download-installer.md)
++ [AEM Document Security Extension for Microsoft Office installeren en configureren](installing-configuring-aemdsext.md)
 + [AEM Document Security Extension gebruiken voor Microsoft Office](using-aem-document-security-extension.md)
-+ [Problemen oplossen AEM Documentbeveiligingsextensie voor Microsoft Office](troubleshooting-document-security-extension.md)
++ [Problemen oplossen met AEM Document Security Extension voor Microsoft Office](troubleshooting-document-security-extension.md)

@@ -138,7 +138,7 @@ Uitgebreide verificatie inschakelen met een aangepaste bestemmings-URL:
    >
    >&lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/> `!!discoiqbr!!` &lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;> `!!discoiqbr!!` &lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/> `!!discoiqbr!!`
 
-   Voor geleidelijke informatie bij het bijwerken van het config.xml- dossier, zie [&#x200B; manueel het uitgeven van het dossier van de documentveiligheidsconfiguratie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions#manually_editing_the_document_security_configuration_file).
+   Voor geleidelijke informatie bij het bijwerken van het config.xml- dossier, zie [&#x200B; manueel het uitgeven van het dossier van de documentveiligheidsconfiguratie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions#manually_editing_the_document_security_configuration_file).
 
    Nu is de beveiliging van AEM Forms-documenten geconfigureerd voor uitgebreide verificatie met een aangepaste bestemmings-URL
 
@@ -431,7 +431,7 @@ De Uitbreiding van de Veiligheid van het document voor Microsoft® Office steunt
 
 Documentbeveiligingsextensie ondersteunt geen uitgebreide watermerkfuncties. Veelzijdige watermerkfuncties zijn onder andere watermerken die zijn gebaseerd op PDF, meerdere elementen in een watermerk en tekstopmaakopties. Deze omvatten ook het paginabereik.
 
-U kunt een dynamisch watermerk maken met behulp van de webpagina&#39;s voor documentbeveiliging. Voor meer informatie, zie [&#x200B; Eind - de Hulp van de Gebruiker van de Veiligheid van het Document &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/administrator-help/work-with-document-security/document-security).
+U kunt een dynamisch watermerk maken met behulp van de webpagina&#39;s voor documentbeveiliging. Voor meer informatie, zie [&#x200B; Eind - de Hulp van de Gebruiker van de Veiligheid van het Document &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/forms/administrator-help/work-with-document-security/document-security).
 
 Documentbeveiligingsextensie voor Microsoft® Office biedt ondersteuning voor de volgende watermerkfuncties:
 

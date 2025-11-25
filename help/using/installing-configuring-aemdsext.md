@@ -27,7 +27,7 @@ Dit document bevat informatie over de volgende taken:
 
 Voordat u de Document Security Extension for Microsoft Office installeert, moet u controleren of:
 
-* U hebt de [ Nota&#39;s van de Versie ](document-security-extension-release-notes.md) gelezen.
+* U hebt de [&#x200B; Nota&#39;s van de Versie &#x200B;](document-security-extension-release-notes.md) gelezen.
 * Microsoft Office is geactiveerd. Het dialoogvenster Activering wordt niet weergegeven bij het openen van Microsoft Office-toepassingen.
 * De nieuwste servicepacks voor Microsoft Windows en Microsoft Office zijn geïnstalleerd.
 * Als u Documentbeveiliging voor Microsoft Office installeert voor een niet-ondersteunde taal, opent u de Office-toepassing minstens één keer.
@@ -74,7 +74,7 @@ Als u Extensie Documentbeveiliging wilt gebruiken, moet u verbinding kunnen make
 
 ## Documentbeveiligingsextensie installeren voor Microsoft Office {#installing-document-security-extension-for-microsoft-office}
 
-U kunt het installatieprogramma van de [ downloadpagina ](download-installer.md) downloaden. U kunt het uitvoerbare bestand van het installatieprogramma niet rechtstreeks aanpassen, maar u kunt het interactief of in de stille modus installeren. Meld u als beheerder aan bij Windows om de software te installeren.
+U kunt het installatieprogramma van de [&#x200B; downloadpagina &#x200B;](download-installer.md) downloaden. U kunt het uitvoerbare bestand van het installatieprogramma niet rechtstreeks aanpassen, maar u kunt het interactief of in de stille modus installeren. Meld u als beheerder aan bij Windows om de software te installeren.
 
 Afzonderlijke installatieprogramma&#39;s zijn beschikbaar voor 32-bits en 64-bits versies van Microsoft Office. Voor een versie met 32 bits van Microsoft Office, download DocumentSecurityExtensionforMicrosoftOffice.exe. Voor een versie met 64 bits van Microsoft Office, download DocumentSecurityExtensionforMicrosoftOffice64.exe.
 
@@ -254,17 +254,17 @@ Als het automatisch toegepaste beleid wordt toegelaten, worden alle documenten d
 * Wanneer een gebruiker een nieuw document maakt, bewerkt en opslaat.
 * Wanneer een gebruiker een niet-beveiligd document opent, bewerkt en opslaat.
 
-Voor informatie over het vormen van het auto-toegepaste beleid, zie [ een automatische toepassing van het standaardbeleid ](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p) vormen.
+Voor informatie over het vormen van het auto-toegepaste beleid, zie [&#x200B; een automatische toepassing van het standaardbeleid &#x200B;](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p) vormen.
 
 ## Gebruikersinterface zonder lint inschakelen {#enable-ribbon-less-user-interface}
 
 U kunt de gebruikersinterface zonder lint in-/uitschakelen door instellingen in het Windows-register te wijzigen. Voer de volgende stappen uit om het register bij te werken en een gebruikersinterface zonder lint in te schakelen:
 
-1. Maak een back-up van het Windows-register voordat u er wijzigingen in aanbrengt. Voor gedetailleerde instructies, zie [ hoe te de Registratie van Vensters wijzigen ](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users).
+1. Maak een back-up van het Windows-register voordat u er wijzigingen in aanbrengt. Voor gedetailleerde instructies, zie [&#x200B; hoe te de Registratie van Vensters wijzigen &#x200B;](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users).
 1. Ga in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Creeer een nieuwe (met 32 bits) genoemde waarde Dword **HidePluginUI**.
 
-1. Plaats de waarde van het **** bezit HidePluginUI aan 1 om een lint-less gebruikersinterface toe te laten.
+1. Plaats de waarde van het **&#x200B;**&#x200B;bezit HidePluginUI aan 1 om een lint-less gebruikersinterface toe te laten.
 
 1. Sluit de Register-editor.
 
@@ -272,7 +272,7 @@ U kunt de gebruikersinterface zonder lint in-/uitschakelen door instellingen in 
 
 U kunt de montages van de Registratie van Vensters veranderen om dynamisch watermerk samen te maken met bestaande kopballen en footers. Met de registerinstellingen wordt het watermerk alleen tijdens het afdrukken beschikbaar gesteld. Voer de volgende stappen uit om het register bij te werken en watermerken tijdens het afdrukken in te schakelen:
 
-1. Maak een back-up van het Windows-register voordat u er wijzigingen in aanbrengt. Voor gedetailleerde instructies, zie [ hoe te de Registratie van Vensters wijzigen ](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users).
+1. Maak een back-up van het Windows-register voordat u er wijzigingen in aanbrengt. Voor gedetailleerde instructies, zie [&#x200B; hoe te de Registratie van Vensters wijzigen &#x200B;](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users).
 1. Ga in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Creeer een nieuwe sleutel van de Registratie **WatermarkMode**.
 1. In de sleutel van de registratie WatermarkMode, creeer een DWORD **WatermarkMode**, en plaats de waarde van DWORD **WatermarkMode** aan **1**.

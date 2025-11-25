@@ -1,19 +1,19 @@
 ---
-title: AEM Document Security Extension for Microsoft Office installeren en configureren
+title: AEM Document Security Extension voor Microsoft Office installeren en configureren
 description: Dit document begeleidt u door het installeren en configureren van Adobe Experience Manager Document Security Extension 6.2 voor Microsoft Office.
 uuid: 9d7eb6bb-4780-4d82-8657-7c6c6d523af0
 content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
-source-git-commit: 69abd3e49fcf79b8bf2a7f344abeeae250b1479f
+source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
 workflow-type: tm+mt
 source-wordcount: '2845'
 ht-degree: 0%
 
 ---
 
-# AEM Document Security Extension for Microsoft Office installeren en configureren{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
+# AEM Document Security Extension voor Microsoft Office installeren en configureren{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
 Dit document begeleidt u door de Adobe Experience Manager Document Security Extension for Microsoft Office te installeren en te configureren.
 
@@ -27,7 +27,7 @@ Dit document bevat informatie over de volgende taken:
 
 Voordat u de Document Security Extension for Microsoft Office installeert, moet u controleren of:
 
-* U hebt de [&#x200B; Nota&#39;s van de Versie &#x200B;](document-security-extension-release-notes.md) gelezen.
+* U hebt de [ Nota&#39;s van de Versie ](document-security-extension-release-notes.md) gelezen.
 * Microsoft Office is geactiveerd. Het dialoogvenster Activering wordt niet weergegeven bij het openen van Microsoft Office-toepassingen.
 * De nieuwste servicepacks voor Microsoft Windows en Microsoft Office zijn geïnstalleerd.
 * Als u Documentbeveiliging voor Microsoft Office installeert voor een niet-ondersteunde taal, opent u de Office-toepassing minstens één keer.
@@ -56,7 +56,7 @@ Controleer de volgende minimale configuraties waarop u Documentbeveiligingsexten
 
 * 32-bits of 64-bits versies van Microsoft Office 2019 Professional Plus op Microsoft Windows 11 in het Engels, Frans, Duits, Japans, Italiaans, Spaans, Braziliaans Portugees, Koreaans, Vereenvoudigd Chinees of Traditioneel Chinees.
 
-* 32-bits of 64-bits versies van Microsoft Windows 10 in het Engels, Frans, Duits, Japans, Italiaans, Spaans, Braziliaans Portugees, Koreaans, Vereenvoudigd Chinees of Traditioneel Chinees.
+* 32-bits of 64-bits versies van Microsoft Windows 10 in het Engels, Frans, Duits, Japans, Italiaans, Spaans, Braziliaans, Portugees, Koreaans, Vereenvoudigd Chinees of Traditioneel Chinees.
 
   **Nota:** *de veiligheidsuitbreiding van het Document voor Microsoft Office wordt ook verwacht om op de apparaten van het Oppervlak van Microsoft te werken.*
 
@@ -74,7 +74,7 @@ Als u Extensie Documentbeveiliging wilt gebruiken, moet u verbinding kunnen make
 
 ## Documentbeveiligingsextensie installeren voor Microsoft Office {#installing-document-security-extension-for-microsoft-office}
 
-U kunt het installatieprogramma van de [&#x200B; downloadpagina &#x200B;](download-installer.md) downloaden. U kunt het uitvoerbare bestand van het installatieprogramma niet rechtstreeks aanpassen, maar u kunt het interactief of in de stille modus installeren. Meld u als beheerder aan bij Windows om de software te installeren.
+U kunt het installatieprogramma van de [ downloadpagina ](download-installer.md) downloaden. U kunt het uitvoerbare bestand van het installatieprogramma niet rechtstreeks aanpassen, maar u kunt het interactief of in de stille modus installeren. Meld u als beheerder aan bij Windows om de software te installeren.
 
 Afzonderlijke installatieprogramma&#39;s zijn beschikbaar voor 32-bits en 64-bits versies van Microsoft Office. Voor een versie met 32 bits van Microsoft Office, download DocumentSecurityExtensionforMicrosoftOffice.exe. Voor een versie met 64 bits van Microsoft Office, download DocumentSecurityExtensionforMicrosoftOffice64.exe.
 
@@ -98,7 +98,7 @@ Het installatieprogramma is ook beschikbaar als een MSI-bestand dat kan worden g
 
    `msiexec /I DocumentSecurityExtensionforMicrosoftOffice.msi /qn`
 
-## Het installatieprogramma configureren voor verbinding met documentbeveiliging {#preconfiguring-the-installer-to-connect-to-document-security}
+## Het installatieprogramma vooraf configureren om verbinding te maken met Documentbeveiliging {#preconfiguring-the-installer-to-connect-to-document-security}
 
 U kunt de documentbeveiligingsextensie vooraf configureren zodat het installatieprogramma van Microsoft Office naar een LiveCycle- of AEM-server wijst. Dit zorgt ervoor dat gebruikers die de Uitbreiding van de Veiligheid van het Document voor Microsoft Office installeren de eigenschappen kunnen gebruiken zonder een verbinding te vormen. Daarom kunnen gebruikers beveiligde documenten zonder configuratie openen. Ze kunnen nieuwe documenten echter pas beschermen als ze de client configureren voor het gebruik van een bepaalde server.
 
@@ -173,7 +173,7 @@ For more information about how to edit Microsoft Windows&reg; Installer files us
    >
    >Vaak wordt dezelfde bestandsnaam gebruikt als het oorspronkelijke MSI-bestand (bijvoorbeeld `DocumentSecurityExtensionforMicrosoftOffice.msi` ).
 
-## Het vormen automatische toepassing van een standaardbeleid {#configuring-automatic-application-of-a-default-policy}
+## Automatische toepassing van standaardbeleid configureren {#configuring-automatic-application-of-a-default-policy}
 
 Als onderdeel van de configuratie kunt u de automatische toepassing van een standaardbeleid zodanig configureren dat de extensie Documentbeveiliging voor Microsoft Office elk document beschermt dat wordt opgeslagen.
 
@@ -182,13 +182,13 @@ U kunt een van de volgende opties opgeven:
 * Alle documenten beveiligen met een standaardbeleid.
 * Gebruikers kunnen desgewenst een bestand opslaan in een niet-beveiligde indeling wanneer zij geen verbinding met de server kunnen maken. Met deze flexibiliteit kunt u rekening houden met gevallen waarin gebruikers documenten maken terwijl ze geen verbinding hebben met het netwerk (bijvoorbeeld tijdens een vliegtuig).
 
-Nadat u de functie voor automatisch toepassen hebt ingeschakeld, wordt het document in de volgende gevallen beveiligd met het standaardbeleid:
+Nadat u de automatisch toegepaste beleidsfunctie hebt ingeschakeld, wordt het document in de volgende gevallen beveiligd met het standaardbeleid:
 
 * Een gebruiker bewerkt een nieuw document en slaat dit op
 * Een gebruiker bewerkt een niet-beveiligd document en slaat dit op
 * De gebruiker opent een toepassing die met een standaarddocument opent, uitgeeft, en dan bewaart het document
 
-### Vorm automatisch toepassen beleidseigenschap in het MSI dossier {#configure-the-auto-apply-policy-feature-in-the-msi-file}
+### Vorm de auto-toegepaste beleidseigenschap in het MSI- dossier {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
 Voordat u begint, configureert u het installatieprogramma zo dat het naar uw LiveCycle- of AEM Forms-server wijst, zoals eerder in dit artikel is beschreven.
 
@@ -209,12 +209,12 @@ Voordat u begint, configureert u het installatieprogramma zo dat het naar uw Liv
   </tr>
   <tr>
    <td><p><code>AUTO_APPLY_POLICY_IS_AUTO_ APPLY</code></p> </td>
-   <td><p>Schakel de functie voor automatisch toepassen van beleid in of uit.</p> <p><code>1</code>: Enable</p> <p>0: Uitschakelen</p> </td>
+   <td><p>Schakel de functie voor automatisch toegepast beleid in of uit.</p> <p><code>1</code>: Enable</p> <p>0: Uitschakelen</p> </td>
    <td><p>0</p> </td>
   </tr>
   <tr>
    <td><p><code>AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
-   <td><p>Het beleid is GUID aan gebruik wanneer de nieuwe documenten worden bewaard. Deze waarde is van toepassing op de functie Beleid automatisch toepassen.</p> </td>
+   <td><p>Het beleid is GUID aan gebruik wanneer de nieuwe documenten worden bewaard. Deze waarde is van toepassing op de automatisch toegepaste beleidsfunctie.</p> </td>
    <td><p>Hexadecimale beleids-id als zichtbaar op de RM-server</p> </td>
   </tr>
   <tr>
@@ -245,26 +245,26 @@ Voordat u begint, configureert u het installatieprogramma zo dat het naar uw Liv
    >
    >Vaak wordt dezelfde bestandsnaam gebruikt als het oorspronkelijke MSI-bestand (bijvoorbeeld `DocumentSecurityExtensionforMicrosoftOffice.msi` ).
 
-## Automatische bescherming van nieuwe documenten mogelijk maken {#enabling-automatic-protection-of-new-documents}
+## Automatische bescherming van nieuwe documenten inschakelen {#enabling-automatic-protection-of-new-documents}
 
-De beheerder kan de mogelijkheid inschakelen om elk document automatisch te beveiligen dat een gebruiker opslaat. De beheerder configureert de beleidsfunctie Automatisch toepassen in het installatieprogramma voor de extensie Documentbeveiliging voor Microsoft Office.
+De beheerder kan de mogelijkheid inschakelen om elk document automatisch te beveiligen dat een gebruiker opslaat. De beheerder vormt de automatisch toegepaste beleidseigenschap in het installatieprogramma voor de Uitbreiding van de Veiligheid van het Document voor Microsoft Office.
 
-Als het beleid Automatisch toepassen is ingeschakeld, worden alle documenten die de gebruiker opslaat beveiligd met het standaardbeleid. Deze actie is van toepassing in de volgende situaties:
+Als het automatisch toegepaste beleid wordt toegelaten, worden alle documenten die de gebruiker bewaart beschermd met het standaardbeleid. Deze actie is van toepassing in de volgende situaties:
 
 * Wanneer een gebruiker een nieuw document maakt, bewerkt en opslaat.
 * Wanneer een gebruiker een niet-beveiligd document opent, bewerkt en opslaat.
 
-Voor informatie over het vormen van auto-pas beleid toe, zie [&#x200B; een automatische toepassing van het standaardbeleid &#x200B;](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p) vormen.
+Voor informatie over het vormen van het auto-toegepaste beleid, zie [ een automatische toepassing van het standaardbeleid ](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p) vormen.
 
 ## Gebruikersinterface zonder lint inschakelen {#enable-ribbon-less-user-interface}
 
 U kunt de gebruikersinterface zonder lint in-/uitschakelen door instellingen in het Windows-register te wijzigen. Voer de volgende stappen uit om het register bij te werken en een gebruikersinterface zonder lint in te schakelen:
 
-1. Maak een back-up van het Windows-register voordat u er wijzigingen in aanbrengt. Voor gedetailleerde instructies, zie [&#x200B; hoe te de Registratie van Vensters wijzigen &#x200B;](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users).
+1. Maak een back-up van het Windows-register voordat u er wijzigingen in aanbrengt. Voor gedetailleerde instructies, zie [ hoe te de Registratie van Vensters wijzigen ](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users).
 1. Ga in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Creeer een nieuwe (met 32 bits) genoemde waarde Dword **HidePluginUI**.
 
-1. Plaats de waarde van het **&#x200B;**&#x200B;bezit HidePluginUI aan 1 om een lint-less gebruikersinterface toe te laten.
+1. Plaats de waarde van het **** bezit HidePluginUI aan 1 om een lint-less gebruikersinterface toe te laten.
 
 1. Sluit de Register-editor.
 
@@ -272,7 +272,7 @@ U kunt de gebruikersinterface zonder lint in-/uitschakelen door instellingen in 
 
 U kunt de montages van de Registratie van Vensters veranderen om dynamisch watermerk samen te maken met bestaande kopballen en footers. Met de registerinstellingen wordt het watermerk alleen tijdens het afdrukken beschikbaar gesteld. Voer de volgende stappen uit om het register bij te werken en watermerken tijdens het afdrukken in te schakelen:
 
-1. Maak een back-up van het Windows-register voordat u er wijzigingen in aanbrengt. Voor gedetailleerde instructies, zie [&#x200B; hoe te de Registratie van Vensters wijzigen &#x200B;](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users).
+1. Maak een back-up van het Windows-register voordat u er wijzigingen in aanbrengt. Voor gedetailleerde instructies, zie [ hoe te de Registratie van Vensters wijzigen ](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users).
 1. Ga in de Register-editor naar HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 of HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Creeer een nieuwe sleutel van de Registratie **WatermarkMode**.
 1. In de sleutel van de registratie WatermarkMode, creeer een DWORD **WatermarkMode**, en plaats de waarde van DWORD **WatermarkMode** aan **1**.

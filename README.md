@@ -1,16 +1,10 @@
 ---
-source-git-commit: 6cf19ed9439e5be5a4c2e2fa2458879f37c25b96
+source-git-commit: 2b12d01aa269dd7a38ce067c496462d02a7884b5
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '7'
 ht-degree: 0%
 
 ---
-# Documentbeveiligingsextensie AEM voor Microsoft Office-documentatie
+# ARCHIVED
 
-De opslagplaats voor de Uitbreiding van de Veiligheid van AEM van het Document voor de Documentatie van Microsoft Office.
-
-Uw bijdragen aan de documentatie zijn welkom. Zie de volgende bronnen:
-
-* [&#x200B; contribute.md &#x200B;](contributing.md) voor een overzicht van hoe te om aan de documentatie bij te dragen.
-* [&#x200B; guidelines.md &#x200B;](guidelines.md) voor een overzicht van wat in bijdragen en hoe te om uw documentatiebijdragen samen te stellen wordt verwacht.
-* [&#x200B; code-van-behavior.md &#x200B;](code-of-conduct.md) voor een overzicht van de normen van Adobe verwacht gedrag aangezien u aan deze documentatie bijdraagt. project.
+Deze reactie is gemigreerd naar <https://github.com/Adobe-Enterprise-Docs/experience-manager-document-security.en>
